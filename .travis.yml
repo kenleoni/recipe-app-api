@@ -7,4 +7,4 @@ services:
 
 before_script: pip install docker-compose
 
-script: sh locate docker-compose
+script: bash find / -name "docker-compose"
